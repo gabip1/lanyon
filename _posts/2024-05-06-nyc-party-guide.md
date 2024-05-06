@@ -15,10 +15,8 @@ Our guide answers pressing questions: Which areas receive the most complaints? W
 
 With introductions aside, behold the interactive map in Figure 1. This guide can be used in two ways: for a broad view of NYC's party landscape or for targeted party planning by selecting potential ZIP codes. The map highlights the safest bets for your next shindig—the lighter the area, the fewer complaints it's had.
 
-<figure style="text-align: center;">
-    <iframe src="/lanyon/public/party_filter.html" width="720px" height="600px"></iframe>
-    <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
-</figure>
+{% include party_filter.html %}
+<figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
 <br>
 
 A glance at the map reveals that the Bronx and the Brooklyn-Queens border are hotspots for noise complaints. The Bronx ZIP code area 10467 leads with 29,255 complaints over the years, closely followed by Brooklyn's 11221 and 11226, each with over 28,000. Our tip? Steer clear of these areas if you're hosting.
@@ -27,10 +25,9 @@ Seasonal patterns are also evident. The Bronx dominates complaints in the colder
 
 Figure 2 showcases our machine learning model's interface, predicting the likely time of your first noise complaint based on the month, weekday, and ZIP code. Our suggestion? Lower the volume at the predicted time or move the festivities indoors.
 
-<figure style="text-align: center;">
-    <iframe src="/lanyon/public/party_predict.html" width="720px" height="100px"></iframe>
-    <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 2: Interface for predicting a noise complaint time.</figcaption>
-</figure>
+{% include party_predict.html %}
+<figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 2: Interface for predicting a noise complaint time.</figcaption>
+
 <br>
 
 And there you have it—the NYC house party survival guide. May it aid you in planning your next epic event or, at the very least, provide a solid excuse for why the party shouldn't be at my place, Sarah.
