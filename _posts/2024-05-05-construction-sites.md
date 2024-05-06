@@ -18,10 +18,15 @@ The graph below sheds light on the companies that garnered the most complaints. 
 The heatmap below offers an overview of construction-related noise complaints across New York City throughout the year 2023, delineated by monthly intervals. This visualisation further proves that no area in particular can be save from unwanted construction site noise in the city.
 
 <figure style="text-align: center;">
-    <iframe src="/lanyon/public/noise_heatmap_with_time_by_month.html" width="640px" height="450px"></iframe>
-    <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 3: </figcaption>
+    <iframe src="/lanyon/public/noise_heatmap_with_time_by_month.html" width="720px" height="450px"></iframe>
+    <figcaption style="font-size: smaller; margin-top: 5px;"> Heatmap of construction site-related complaints through 2023.</figcaption>
 </figure>
 
 A more detailed examination of the next map reveals the distribution of noisy construction sites across different neighborhoods. It becomes evident that Manhattan and the northern regions of Brooklyn are particularly notorious for disruptive noise levels outside of regular working hours.
+
+<figure style="text-align: center;">
+    <iframe src="/lanyon/public/top_complaints_map.html" width="720px" height="450px"></iframe>
+    <figcaption style="font-size: smaller; margin-top: 5px;"> Pinpointing most complained construction sites.</figcaption>
+</figure>
 
 New York City: the city that never sleeps, but maybe not for the reasons we'd expect. While we've long romanticized the bustling streets and vibrant nightlife, it turns out that the truth behind those sleepless nights might just be the cacophony of construction sites. The symphony of jackhammers and heavy machinery, ensures that there's never a dull moment – or a quiet one.
