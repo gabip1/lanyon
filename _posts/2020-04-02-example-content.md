@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Building permits (come up with the title)
 ---
 
 
