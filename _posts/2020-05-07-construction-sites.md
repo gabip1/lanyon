@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Uncovering New York's Noisiest Construction Sites.
+title: Uncovering New York's Noisiest Construction Sites
 ---
 
 ![nyc pic](/lanyon/public/img/jackhammering.jpg)
@@ -14,17 +14,16 @@ In 2023 alone, NYC officials issued a staggering 14,424 construction work permit
 
 The graph below sheds light on the companies that garnered the most complaints. The complaints primarily revolved around noise, including construction before/after hours, construction equipment noise, jack hammering.Particularly intriguing is the revelation that the top company, despite operating on only 151 job permits, received a staggering 120 times more complaints than the number of permits it held.
 
-![top complained companies](/lanyon/public/img/top_baddest_companies.png)
-
 The heatmap below offers an overview of construction-related noise complaints across New York City throughout the year 2023, delineated by monthly intervals. This visualisation further proves that no area in particular can be save from unwanted construction site noise in the city.
-{% include noise_heatmap_with_time_by_month.html %}
+
+<!-- {% include noise_heatmap_with_time_by_month.html %}
 <figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Heatmap of noise complaints in 2023 grouped by month.</figcaption>
-<br>
+<br> -->
 
 A more detailed examination of the next map reveals the distribution of noisy construction sites across different neighborhoods. It becomes evident that Manhattan and the northern regions of Brooklyn are particularly notorious for disruptive noise levels outside of regular working hours.
 
-{% include top_complaints_map.html %}
+<!-- {% include top_complaints_map.html %}
 <figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Pinpointing most complained construction sites.</figcaption>
-<br>
+<br> -->
 
 New York City: the city that never sleeps, but maybe not for the reasons we'd expect. While we've long romanticized the bustling streets and vibrant nightlife, it turns out that the truth behind those sleepless nights might just be the cacophony of construction sites. The symphony of jackhammers and heavy machinery, ensures that there's never a dull moment – or a quiet one.
