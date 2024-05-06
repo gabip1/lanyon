@@ -18,6 +18,7 @@ With introductions aside, behold the interactive map in Figure 1. This guide can
 {% include party_filter.html %}
 <figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
 
+
 A glance at the map reveals that the Bronx and the Brooklyn-Queens border are hotspots for noise complaints. The Bronx ZIP code area 10467 leads with 29,255 complaints over the years, closely followed by Brooklyn's 11221 and 11226, each with over 28,000. Our tip? Steer clear of these areas if you're hosting.
 
 Seasonal patterns are also evident. The Bronx dominates complaints in the colder months, while Brooklyn takes over in the warmer ones. Weekends, particularly Saturdays (and the resulting Sunday mornings), unsurprisingly see the most action.
@@ -26,6 +27,7 @@ Figure 2 showcases our machine learning model's interface, predicting the likely
 
 {% include party_predict.html %}
 <figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 2: Interface for predicting a noise complaint time.</figcaption>
+
 
 And there you have it—the NYC house party survival guide. May it aid you in planning your next epic event or, at the very least, provide a solid excuse for why the party shouldn't be at your place, Sarah.
 
