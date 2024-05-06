@@ -16,7 +16,7 @@ Our guide answers pressing questions: Which areas receive the most complaints? W
 With introductions aside, behold the interactive map in Figure 1. This guide can be used in two ways: for a broad view of NYC's party landscape or for targeted party planning by selecting potential ZIP codes. The map highlights the safest bets for your next shindig—the lighter the area, the fewer complaints it's had.
 
 <figure style="text-align: center;">
-    <iframe src="party_filter.html" width="640px"></iframe>
+    <iframe src="../party_filter.html" width="640px"></iframe>
     <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Seasonal patterns are also evident. The Bronx dominates complaints in the colder
 
 Figure 2 showcases our machine learning model's interface, predicting the likely time of your first noise complaint based on the month, weekday, and ZIP code. Our suggestion? Lower the volume at the predicted time or move the festivities indoors.
 <figure style="text-align: center;">
-    <iframe src="party_predict.html" width="640px"></iframe>
+    <iframe src="../party_predict.html" width="640px"></iframe>
     <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 2: Interface for predicting a noise complaint time.</figcaption>
 </figure>
 
