@@ -5,7 +5,7 @@ description:         'A reserved <a href="https://jekyllrb.com" target="_blank">
 url:                 http://gabpen.github.io
 baseurl:             '/lanyon'
 paginate:            5
-permalink:           pretty
+permalink:           /:year/:month/:day/:title.html
 
 # About/contact
 author:
