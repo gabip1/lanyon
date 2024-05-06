@@ -13,6 +13,7 @@ Through this combination of data, the aim is clear: to shine a spotlight on the 
 In 2023 alone, NYC officials issued a staggering 14,424 construction work permits for 1,028 companies. During the same period, residents of the city lodged a remarkable 31,615 noise complaints related to construction site works. These numbers underscore the sheer magnitude of the problem and the significant impact it has on the daily lives of New Yorkers.
 
 The graph below sheds light on the companies that garnered the most complaints. The complaints primarily revolved around noise, including construction before/after hours, construction equipment noise, jack hammering.Particularly intriguing is the revelation that the top company, despite operating on only 151 job permits, received a staggering 120 times more complaints than the number of permits it held.
+![bad comapnies](/lanyon/public/img/top_baddest_companies.png)
 
 The heatmap below offers an overview of construction-related noise complaints across New York City throughout the year 2023, delineated by monthly intervals. This visualisation further proves that no area in particular can be save from unwanted construction site noise in the city.
 
