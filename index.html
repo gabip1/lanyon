@@ -7,7 +7,7 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}" target="_blank">
+      <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
     </h1>
@@ -18,7 +18,7 @@ title: Home
       {{ post.content | truncatewords: 50 }}
     </div>
 
-    <a href="{{ post.url | absolute_url }}" target="_blank" class="read-more">Read More</a>
+    <a href="{{ post.url | absolute_url }}" class="read-more">Read More</a>
   </div>
   {% endfor %}
 </div>
