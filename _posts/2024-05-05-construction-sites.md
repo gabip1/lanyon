@@ -17,9 +17,10 @@ The graph below sheds light on the companies that garnered the most complaints. 
 
 The heatmap below offers an overview of construction-related noise complaints across New York City throughout the year 2023, delineated by monthly intervals. This visualisation further proves that no area in particular can be save from unwanted construction site noise in the city.
 
-{% include noise_heatmap_with_time_by_month.html %}
-<figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
-<br>
+<figure style="text-align: center;">
+    <iframe src="/lanyon/public/noise_heatmap_with_time_by_month.html" width="640px" height="450px"></iframe>
+    <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 3: </figcaption>
+</figure>
 
 A more detailed examination of the next map reveals the distribution of noisy construction sites across different neighborhoods. It becomes evident that Manhattan and the northern regions of Brooklyn are particularly notorious for disruptive noise levels outside of regular working hours.
 
