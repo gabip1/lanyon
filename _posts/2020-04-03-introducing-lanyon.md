@@ -1,40 +1,35 @@
 ---
 layout: post
-title: NYC Party Survival Guide
+title: NYC House Party Survival Guide
 ---
 
 ![nyc pic](/lanyon/public/img/new-york-city.jpg)
 
-New York City is a bustling metropolis that never sleeps. Among the bustling streets and towering skyscrapers, the cacophony of urban life is ever-present. From the lively chatter of pedestrians to the rumble of subway trains, noise is present in everyday existence. But in the middle of this symphony, one particular aspect stands out: the city's vibrant party scene, as New Yorkers know how to throw down and have a good time. But not every party spot is hassle-free. In certain areas, a noisy gathering can quickly draw the attention of the police, putting a damper on the festivities. In this article, we are going to uncover the hidden gems of NYC nightlife—places where you can throw a party without a worry about police interference. Let's dive into the heart of the city and discover where the music plays on, and the fun never stops.
+##### "It's not a real party until the cops show up" - a phrase many of us have heard, and one that has been immortalized in countless movies and books as the hallmark of a legendary bash. Take "Project X" (2012), for instance: the ultimate party fantasy, complete with a car in the pool and a police shutdown via helicopter.
 
-### Built on Poole
+Yet, the reality of hosting such epic parties isn't always kind to our wallets, especially when fines and New York City-level rents are in the mix. The result? A potential headache, both financially and from any overindulgence in alcohol. So, how does one strike the perfect balance between becoming the host of the century and staying off the NYPD's radar? Fear not, we've got your friend group covered.
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+We - your dedicated team of party scientists - have combined our brainpower to craft the ultimate NYC house party guide. How did we do it? By diving into the NYC's OpenData 311 Service Requests from 2010 to Present dataset. It turns out that pinpointing the residences of the most active party poopers is an excellent starting point. We analyzed the data on "Loud Music/Party" noise complaints at residential buildings, searching for patterns and dividing our analysis by NYC's ZIP code areas.
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+Our guide answers pressing questions: Which areas receive the most complaints? Where's the Tuesday night hotspot in July? Should the party be at your place or Sarah's? Plus, we've even dabbled in machine learning (because what's a 2024 article without a nod to AI?) to predict the best time to dial down the music and keep the party police-free. But remember, our advice comes with a disclaimer: use it wisely and sparingly.
 
-### Lanyon features
+With introductions aside, behold the interactive map in Figure 1. This guide can be used in two ways: for a broad view of NYC's party landscape or for targeted party planning by selecting potential ZIP codes. The map highlights the safest bets for your next shindig—the lighter the area, the fewer complaints it's had.
 
-In addition to the features of Poole, Lanyon adds the following:
+<figure style="text-align: center;">
+    <iframe src="party_filter.html" width="640px"></iframe>
+    <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
+</figure>
 
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
+A glance at the map reveals that the Bronx and the Brooklyn-Queens border are hotspots for noise complaints. The Bronx ZIP code area 10467 leads with 29,255 complaints over the years, closely followed by Brooklyn's 11221 and 11226, each with over 28,000. Our tip? Steer clear of these areas if you're hosting.
 
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
+Seasonal patterns are also evident. The Bronx dominates complaints in the colder months, while Brooklyn takes over in the warmer ones. Weekends, particularly Saturdays (and the resulting Sunday mornings), unsurprisingly see the most action.
 
-### Browser support
+Figure 2 showcases our machine learning model's interface, predicting the likely time of your first noise complaint based on the month, weekday, and ZIP code. Our suggestion? Lower the volume at the predicted time or move the festivities indoors.
+<figure style="text-align: center;">
+    <iframe src="party_predict.html" width="640px"></iframe>
+    <figcaption style="font-size: smaller; margin-top: 5px;">Fig. 2: Interface for predicting a noise complaint time.</figcaption>
+</figure>
 
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+And there you have it—the NYC house party survival guide. May it aid you in planning your next epic event or, at the very least, provide a solid excuse for why the party shouldn't be at your place, Sarah.
 
-### Download
-
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
-
-Thanks!
+Happy (and safe) partying!
