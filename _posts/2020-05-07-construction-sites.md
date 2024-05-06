@@ -3,7 +3,7 @@ layout: post
 title: Uncovering New York's Noisiest Construction Sites
 ---
 
-![nyc pic](/lanyon/public/img/jackhammering.jpg)
+![nyc pic](/public/img/jackhammering.jpg)
 
 ##### In the buzzing metropolis of New York City, the cacophony of urban life never seems to quiet down. Yet, in the constant buzz of activity, lies a source of noise that often goes overlooked: construction sites. With the city in a perpetual state of evolution, construction companies are omnipresent, reshaping the skyline and the streets below. However, as the city thrums with progress, complaints from weary residents paint a different picture—one of sleepless nights, disrupted routines, and frayed nerves. 
 

@@ -3,7 +3,7 @@ title:               Big Apple Data
 tagline:             'Analysis of New York City Open Data'
 description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://gabip1.github.io
-baseurl:             ''
+baseurl:             '/lanyon'
 paginate:            5
 permalink:           /:year/:month/:day/:title/
 
