@@ -17,7 +17,7 @@ The graph below sheds light on the companies that garnered the most complaints. 
 
 The heatmap below offers an overview of construction-related noise complaints across New York City throughout the year 2023, delineated by monthly intervals. This visualisation further proves that no area in particular can be save from unwanted construction site noise in the city.
 
-{% include party_filter.html %}
+{% include noise_heatmap_with_time_by_month.html %}
 <figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 1: Interactive map of house party noise complaints in NYC ZIP code areas.</figcaption>
 <br>
 
