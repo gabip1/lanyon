@@ -3,6 +3,8 @@ layout: post
 title: NYC Party Survival Guide
 ---
 
+![nyc pic](/lanyon/public/img/new-york-city.jpg)
+
 New York City is a bustling metropolis that never sleeps. Among the bustling streets and towering skyscrapers, the cacophony of urban life is ever-present. From the lively chatter of pedestrians to the rumble of subway trains, noise is present in everyday existence. But in the middle of this symphony, one particular aspect stands out: the city's vibrant party scene, as New Yorkers know how to throw down and have a good time. But not every party spot is hassle-free. In certain areas, a noisy gathering can quickly draw the attention of the police, putting a damper on the festivities. In this article, we are going to uncover the hidden gems of NYC nightlife—places where you can throw a party without a worry about police interference. Let's dive into the heart of the city and discover where the music plays on, and the fun never stops.
 
 ### Built on Poole
