@@ -1,122 +1,30 @@
 ---
 layout: post
-title: Building permits (come up with the title)
+title: Uncovering New York's Noisiest Construction Sites
 ---
 
+![nyc pic](/lanyon/public/img/jackhammering.jpg)
 
-<div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-</div>
+##### In the buzzing metropolis of New York City, the cacophony of urban life never seems to quiet down. Yet, in the constant buzz of activity, lies a source of noise that often goes overlooked: construction sites. With the city in a perpetual state of evolution, construction companies are omnipresent, reshaping the skyline and the streets below. However, as the city thrums with progress, complaints from weary residents paint a different picture—one of sleepless nights, disrupted routines, and frayed nerves. 
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+In this tale of urban life, our investigation looks into the intersection of citizen complaints logged through the 311 NYC hotline and the official permits granted for construction work. 
+Through this combination of data, the aim is clear: to shine a spotlight on the practices of construction companies, debunk the worst offenders, and reveal the busiest hotspots in the city. Let's discover why NYC never sleeps. 
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+In 2023 alone, NYC officials issued a staggering 14,424 construction work permits for 1,028 companies. During the same period, residents of the city lodged a remarkable 31,615 noise complaints related to construction site works. These numbers underscore the sheer magnitude of the problem and the significant impact it has on the daily lives of New Yorkers.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+The graph below sheds light on the companies that garnered the most complaints. The complaints primarily revolved around noise, including construction before/after hours, construction equipment noise, jack hammering.Particularly intriguing is the revelation that the top company, despite operating on only 151 job permits, received a staggering 120 times more complaints than the number of permits it held.
 
-## Inline HTML elements
+![top complained companies](/lanyon/public/img/top_baddest_companies.png)
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+The heatmap below offers an overview of construction-related noise complaints across New York City throughout the year 2023, delineated by monthly intervals. This visualisation further proves that no area in particular can be save from unwanted construction site noise in the city.
+{% include noise_heatmap_with_time_by_month.html %}
+<figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Heatmap of noise complaints in 2023 grouped by month.</figcaption>
+<br>
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+A more detailed examination of the next map reveals the distribution of noisy construction sites across different neighborhoods. It becomes evident that Manhattan and the northern regions of Brooklyn are particularly notorious for disruptive noise levels outside of regular working hours.
 
-Most of these elements are styled by browsers with few modifications on our part.
+{% include top_complaints_map.html %}
+<figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Pinpointing most complained construction sites.</figcaption>
+<br>
 
-## Heading
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-### Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
------
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+New York City: the city that never sleeps, but maybe not for the reasons we'd expect. While we've long romanticized the bustling streets and vibrant nightlife, it turns out that the truth behind those sleepless nights might just be the cacophony of construction sites. The symphony of jackhammers and heavy machinery, ensures that there's never a dull moment – or a quiet one.
