@@ -27,7 +27,6 @@ Figure 2 showcases our machine learning model's interface, predicting the likely
 
 {% include party_predict.html %}
 <figcaption style="font-size: smaller; margin-top: 5px; text-align: center;">Fig. 2: Interface for predicting a noise complaint time.</figcaption>
-
 <br>
 
 And there you have it—the NYC house party survival guide. May it aid you in planning your next epic event or, at the very least, provide a solid excuse for why the party shouldn't be at my place, Sarah.
